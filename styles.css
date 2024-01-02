@@ -1,0 +1,127 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+    h1 {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'PT Serif', serif;
+  }
+  h2 { 
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1px;
+
+  }
+  p {
+    font-size: 15px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1px;
+  }
+
+  ul {
+    font-size: 15px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1.2px;
+    list-style-type: none;
+  }
+  ol {
+    font-size: 15px;
+    list-style-type: outside;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'PT Serif', serif;
+    line-height: 20px;
+    word-spacing: normal;
+  }
+  
+
+  a {
+    font-family: 'DM Serif Display', serif;
+    font-family: 'PT Serif', serif;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    word-spacing: normal;
+    outline-color: transparent;
+  }
+  a:link {
+    color:#a66;
+  }
+  
+  a:visited {
+    color: rgb(186, 82, 82);
+  }
+  
+  a:focus {
+    text-decoration: none;
+    background: #d0dcc7;
+
+  }
+  a:hover {
+    text-decoration: none;
+    background: #d0dcc7;
+  }
+  a:active {
+    background: #6900ff;
+    color: #cdfeaa;
+  }
+
+  /* Layout */
+  section {
+    float: left;
+    width: 50%;
+    font-size: 5px;
+    text-indent: 20px;
+    text-align: justify;
+  }
+
+
+  aside {
+    float: left;
+    width: 30%;
+  }
+
+  
+  nav {
+    float: left;
+    width: 20%;
+    margin-top: 50px;
+    grid-area: profile;
+    
+  }
+
+  nav li{
+    border: 3px solid #a66;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+
+
+  footer {
+    clear: both;
+    text-align: center;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
